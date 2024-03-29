@@ -1,3 +1,5 @@
+import logo from "../assets/logo.webp"
+
 export default function Nabar(){
     return (
         <>
@@ -30,7 +32,7 @@ export default function Nabar(){
                                 </ul>
                                 <div className="top-nav-social">
                                     <a title="social" href="google.com">
-                                        <span className="hidden">icon for social</span>
+                                        <span className="d-none">icon for social</span>
                                         <svg aria-hidden="true" focusable="false" role="presentation"
                                             className="icon icon-instagram" viewBox="0 0 18 18">
                                             <path fill="var(--color-accent)"
@@ -40,7 +42,7 @@ export default function Nabar(){
                                         </svg>
                                     </a>
                                     <a title="titok" href="google.com">
-                                        <span className="hidden">icon for social</span>
+                                        <span className="d-none">icon for social</span>
                                         <svg aria-hidden="true" focusable="false" role="presentation" className="icon icon-tiktok"
                                             viewBox="0 0 18 18">
                                             <path d="M8.02 0H11s-.17 3.82 4.13 4.1v2.95s-2.3.14-4.13-1.26l.03 6.1a5.52 5.52 0 11-5.51-5.52h.77V9.4a2.5 2.5 0 101.76 2.4L8.02 0z" fill="var(--color-accent)" />
@@ -56,8 +58,8 @@ export default function Nabar(){
             <nav className="navbar navbar-expand-lg navbar-light nav-sec">
                 <div className="container">
                     <a title="logo" className="navbar-brand" href="google.com">
-                        <span className="hidden">icon for social</span>
-                        <img src="./assets/images/logo.webp" alt=""/>
+                        <span className="d-none">icon for social</span>
+                        <img src={logo} alt=""/>
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -357,7 +359,7 @@ export default function Nabar(){
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="google.com" id="navbarDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span className="hidden">icon for social</span>
+                                    <span className="d-none">icon for social</span>
                                     Parts
                                     <svg width="8" height="6" viewBox="0 0 8 6" fill="none" title="icon" xmlns="http://www.w3.org/2000/svg">
                                         <title>icon</title>

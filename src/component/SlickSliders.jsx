@@ -8,6 +8,7 @@ export const SimpleSliderHeroFun = function SimpleSliderHero() {
         dots: true,
         arrows: false,
         infinite: true,
+        className: 'untern-slider4x',
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive:

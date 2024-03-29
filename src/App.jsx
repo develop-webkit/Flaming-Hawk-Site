@@ -9,6 +9,8 @@ import CarMake from "./component/CarMake";
 import Rating from "./component/Rating";
 import Shipping from "./component/Shipping";
 import Footer from "./component/Footer";
+import "../src/css/style.css";
+import "../src/css/responsive-style.css";
 
 function App() {
   return (

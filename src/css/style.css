@@ -1055,6 +1055,7 @@ a {
 
 .untern-slider4x .slick-dots li {
     margin: 0 0.325rem;
+    width: initial;
 }
 
 .untern-slider4x .slick-dots li button {
@@ -1571,4 +1572,8 @@ a {
     .auto-scroll-content {
         padding: 0;
     }
+}
+
+.slick-dots li button:before{
+    display:none;
 }
