@@ -11,6 +11,7 @@ import Shipping from "./component/Shipping";
 import Footer from "./component/Footer";
 import "../src/css/style.css";
 import "../src/css/responsive-style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
