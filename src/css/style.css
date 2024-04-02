@@ -424,7 +424,7 @@ a {
 }
 
 .seller-slick .untern-slider1x .slick-prev {
-    background-image: url(../images/right-arrow.png);
+    background-image: url(../assets/right-arrow.png);
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
@@ -446,7 +446,7 @@ a {
 }
 
 .seller-slick .untern-slider1x .slick-next {
-    background-image: url(../images/right-arrow.png);
+    background-image: url(../assets/right-arrow.png);
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
@@ -494,7 +494,7 @@ a {
 }
 
 .upgrade-car-one {
-    background-image: url(../images/car-one.jpg);
+    background-image: url(../assets/car-one.jpg);
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -543,7 +543,7 @@ a {
 }
 
 .upgrade-car-two {
-    background-image: url(../images/car-two.jpg);
+    background-image: url(../assets/car-two.jpg);
     min-height: 18.75rem;
 }
 
@@ -552,14 +552,14 @@ a {
 }
 
 .upgrade-car-three {
-    background-image: url(../images/car-three.jpg);
+    background-image: url(../assets/car-three.jpg);
     min-height: 19rem;
     justify-content: center;
     margin-top: 1.25rem;
 }
 
 .upgrade-car-four {
-    background-image: url(../images/car-four.avif);
+    background-image: url(../assets/car-four.avif);
 }
 
 .upgrade-sec {
@@ -745,7 +745,7 @@ a {
 }
 
 .love-slick .untern-slider3x .slick-next {
-    background-image: url(../images/right-arrow.png);
+    background-image: url(../assets/right-arrow.png);
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
@@ -768,7 +768,7 @@ a {
 }
 
 .love-slick .untern-slider3x .slick-prev {
-    background-image: url(../images/right-arrow.png);
+    background-image: url(../assets/right-arrow.png);
     background-position: 50%;
     background-repeat: no-repeat;
     font-size: 0;
@@ -918,7 +918,7 @@ a {
     color: #aaaeb6;
     font-size: 0.875rem;
     width: 5rem;
-    background-image: url(../images/down-arrow1.png);
+    background-image: url(../assets/down-arrow1.png);
     background-size: 12px 12px;
 }
 

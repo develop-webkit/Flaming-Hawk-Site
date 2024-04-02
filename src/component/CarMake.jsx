@@ -1,3 +1,10 @@
+import make1 from "../assets/make1.png";
+import make2 from "../assets/make2.png";
+import make3 from "../assets/make3.webp";
+import make4 from "../assets/make4.png";
+import make5 from "../assets/make5.png";
+import make6 from "../assets/make6.png";
+
 export default function CarMake() {
     return (
         <section className="carmake-sec">
@@ -14,22 +21,22 @@ export default function CarMake() {
                     <div className="col-12">
                         <div className="make-tags">
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make1.png" alt=""/>
+                                <img src={make1} alt=""/>
                             </a>
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make2.png" alt=""/>
+                                <img src={make2} alt=""/>
                             </a>
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make3.webp" alt=""/>
+                                <img src={make3} alt=""/>
                             </a>
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make4.png" alt=""/>
+                                <img src={make4} alt=""/>
                             </a>
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make5.png" alt=""/>
+                                <img src={make5} alt=""/>
                             </a>
                             <a title="footer-icon" href="google.com">
-                                <img src="./assets/images/make6.png" alt=""/>
+                                <img src={make6} alt=""/>
                             </a>
                         </div>
                     </div>

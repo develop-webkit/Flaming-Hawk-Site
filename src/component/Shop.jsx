@@ -1,3 +1,7 @@
+import shop1 from "../assets/shop1.avif";
+import shop2 from "../assets/shop2.avif";
+import shop3 from "../assets/shop3.avif";
+
 export default function Shop(){
     return(
         <section className="shop-sec">
@@ -18,7 +22,7 @@ export default function Shop(){
                                 </a>
                             </div>
                             <div className="shop-img">
-                                <img src="./assets/images/shop1.avif" alt=""/>
+                                <img src={shop1} alt=""/>
                             </div>
                         </div>
                     </div>
@@ -37,7 +41,7 @@ export default function Shop(){
                                 </a>
                             </div>
                             <div className="shop-img">
-                                <img src="./assets/images/shop2.avif" alt=""/>
+                                <img src={shop2} alt=""/>
                             </div>
                         </div>
                     </div>
@@ -56,7 +60,7 @@ export default function Shop(){
                                 </a>
                             </div>
                             <div className="shop-img">
-                                <img src="./assets/images/shop3.avif" alt="" />
+                                <img src={shop3} alt="" />
                             </div>
                         </div>
                     </div>

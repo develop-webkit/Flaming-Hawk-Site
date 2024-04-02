@@ -1,3 +1,12 @@
+import arrival1 from "../assets/arrival1.webp";
+import arrival2 from "../assets/arrival2.webp";
+import arrival3 from "../assets/arrival3.webp";
+import arrival4 from "../assets/arrival4.webp";
+import arrival5 from "../assets/arrival5.webp";
+import arrival6 from "../assets/arrival6.webp";
+import arrival7 from "../assets/arrival7.webp";
+import arrival8 from "../assets/arrival8.webp";
+
 export default function Arrival() {
     return (
         <section className="arrival-sec">
@@ -24,8 +33,8 @@ export default function Arrival() {
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="techno-slide">
                             <a title="footer-icon" className="wheels-img" href="Google.com">
-                                <img className="wheel-one" src="./assets/images/arrival2.webp" alt=""/>
-                                <img className="wheel-two" src="./assets/images/arrival1.webp" alt=""/>
+                                <img className="wheel-one" src={arrival2} alt=""/>
+                                <img className="wheel-two" src={arrival1} alt=""/>
                             </a>
                             <div className="price-heading">
                                 <a href="Google.com">
@@ -44,8 +53,8 @@ export default function Arrival() {
                             <span className="badge-sale">Save 13%
                             </span>
                             <a title="footer-icon" className="wheels-img" href="Google.com">
-                                <img className="wheel-one" src="./assets/images/arrival4.webp" alt=""/>
-                                <img className="wheel-two" src="./assets/images/arrival3.webp" alt=""/>
+                                <img className="wheel-one" src={arrival4} alt=""/>
+                                <img className="wheel-two" src={arrival3} alt=""/>
                             </a>
                             <div className="price-heading">
                                 <a href="Google.com">
@@ -65,8 +74,8 @@ export default function Arrival() {
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="techno-slide">
                             <a title="footer-icon" className="wheels-img" href="Google.com">
-                                <img className="wheel-one" src="./assets/images/arrival6.webp" alt=""/>
-                                <img className="wheel-two" src="./assets/images/arrival5.webp" alt=""/>
+                                <img className="wheel-one" src={arrival6} alt=""/>
+                                <img className="wheel-two" src={arrival5} alt=""/>
                             </a>
                             <div className="price-heading">
                                 <a href="Google.com">
@@ -83,8 +92,8 @@ export default function Arrival() {
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="techno-slide">
                             <a title="footer-icon" className="wheels-img" href="Google.com">
-                                <img className="wheel-one" src="./assets/images/arrival8.webp" alt=""/>
-                                <img className="wheel-two" src="./assets/images/arrival7.webp" alt=""/>
+                                <img className="wheel-one" src={arrival8} alt=""/>
+                                <img className="wheel-two" src={arrival7} alt=""/>
                             </a>
                             <div className="price-heading">
                                 <a href="Google.com">

@@ -1,4 +1,5 @@
-export default function Shipping() {
+import flogo from "../assets/flogo.avif";
+export default function footer() {
     return (
         <footer className="footer-sec">
             <div className="container">
@@ -6,7 +7,7 @@ export default function Shipping() {
                     <div className="col-12 col-md-4">
                         <div className="footer-logo">
                             <a href="google.com" title="flago img">
-                                <img src="./assets/images/flogo.avif" alt=""/>
+                                <img src={flogo} alt=""/>
                             </a>
                             <p>Your destination for all carbon fiber parts</p>
                         </div>
