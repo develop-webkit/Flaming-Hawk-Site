@@ -1,3 +1,26 @@
+import toyota1 from "../assets/toyota1.avif";
+import toyota2 from "../assets/toyota2.avif";
+
+import bmw1 from "../assets/bmw1.avif";
+import bmw2 from "../assets/bmw2.avif";
+
+import gtr1 from "../assets/gtr1.avif";
+import gtr2 from "../assets/gtr2.avif";
+
+import porsche1 from "../assets/porsche1.avif";
+import porsche2 from "../assets/porsche2.avif";
+
+import corvette1 from "../assets/corvette1.avif";
+import corvette2 from "../assets/corvette2.avif";
+
+import star from "../assets/star.png";
+
+import owl1 from "../assets/owl1.png";
+import owl2 from "../assets/owl2.png";
+import owl3 from "../assets/owl3.png";
+
+
+
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -79,7 +102,7 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
         arrows: false,
         infinite: true,
         className: 'untern-slider1x',
-        slidesToShow: 2,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
@@ -111,8 +134,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
                     <span className="badge-sale">Save 23%
                     </span>
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/toyota2.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/toyota1.avif" alt=""/>
+                        <img className="wheel-one" src={toyota2} alt=""/>
+                        <img className="wheel-two" src={toyota1} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -134,8 +157,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
                     <span className="badge-sale">Save 23%
                     </span>
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/bmw1.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/bmw2.avif" alt=""/>
+                        <img className="wheel-one" src={bmw1} alt=""/>
+                        <img className="wheel-two" src={bmw2} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -157,8 +180,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
                     <span className="badge-sale">Save 23%
                     </span>
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/gtr2.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/gtr1.avif" alt=""/>
+                        <img className="wheel-one" src={gtr2} alt=""/>
+                        <img className="wheel-two" src={gtr1} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -178,8 +201,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
             <div>
                 <div className="techno-slide">
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/porsche2.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/porsche1.avif" alt=""/>
+                        <img className="wheel-one" src={porsche2} alt=""/>
+                        <img className="wheel-two" src={porsche1} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -198,8 +221,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
                     <span className="badge-sale">Save 23%
                     </span>
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/corvette2.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/corvette1.avif" alt=""/>
+                        <img className="wheel-one" src={corvette2} alt=""/>
+                        <img className="wheel-two" src={corvette1} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -221,8 +244,8 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
                     <span className="badge-sale">Save 23%
                     </span>
                     <a title="footer-icon" className="wheels-img" href="google.com">
-                        <img className="wheel-one" src="./assets/images/toyota1.avif" alt=""/>
-                        <img className="wheel-two" src="./assets/images/toyota2.avif" alt=""/>
+                        <img className="wheel-one" src={toyota1} alt=""/>
+                        <img className="wheel-two" src={toyota2} alt=""/>
                     </a>
                     <div className="price-heading">
                         <a href="google.com">
@@ -247,16 +270,11 @@ export const SimpleSliderSellerFunc = function SimpleSliderSeller() {
 export const SimpleSliderRatingFunc = function SimpleSliderRating() {
     const settings = {
         dots: false,
-        arrows: false,
+        arrows: true,
         infinite: true,
-        className: 'untern-slider3x',
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0,
-        speed: 8000,
-        pauseOnHover: false,
-        cssEase: 'linear',
+        
         responsive:
             [
                 {
@@ -281,11 +299,11 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
                 <div className="love-customer">
                     <div className="love-customer-content">
                         <span className="love-star">
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
                         </span>
                         <h5>Toyota Supra Custom Steering Wheel</h5>
                         <p>The steering wheel turned out to be amazing. Highly recommend.</p>
@@ -297,11 +315,11 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
                 <div className="love-customer">
                     <div className="love-customer-content">
                         <span className="love-star">
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
                         </span>
                         <h5>BMW 50th Anniversary Emblem</h5>
                         <p>Very nice emblem. Fits perfectly and came with it's 3m tape.</p>
@@ -313,11 +331,11 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
                 <div className="love-customer">
                     <div className="love-customer-content">
                         <span className="love-star">
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
                         </span>
                         <h5>Ford Mustang Custom Steering Wheel</h5>
                         <p>They were nice, easy to deal with, helped me out until I got exactly what I
@@ -330,11 +348,11 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
                 <div className="love-customer">
                     <div className="love-customer-content">
                         <span className="love-star">
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
                         </span>
                         <h5>Nissan 370z Custom Steering Wheel</h5>
                         <p>10/10 quality and looks insane.</p>
@@ -346,11 +364,11 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
                 <div className="love-customer">
                     <div className="love-customer-content">
                         <span className="love-star">
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
-                            <img src="./assets/images/star.png" alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
+                            <img src={star} alt=""/>
                         </span>
                         <h5>Toyota Supra Custom Steering Wheel</h5>
                         <p>The steering wheel turned out to be amazing. Highly recommend.</p>
@@ -364,11 +382,17 @@ export const SimpleSliderRatingFunc = function SimpleSliderRating() {
 
 export const SimpleSliderScrollFunc = function SimpleSliderScroll() {
     const settings = {
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
-        slidesToShow: 1,
+        className: 'untern-slider2x',
+        slidesToShow: 2,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500,
+        speed: 8000,
+        pauseOnHover: false,
+        cssEase: 'linear',
         responsive:
             [
                 {
@@ -391,19 +415,19 @@ export const SimpleSliderScrollFunc = function SimpleSliderScroll() {
         <Slider {...settings}>
             <div>
                 <div className="auto-scroll-content">
-                    <img src="./assets/images/owl1.png" alt=""/>
+                    <img src={owl1} alt=""/>
                     <p>High-end Carbon Parts</p>
                 </div>
             </div>
             <div>
                 <div className="auto-scroll-content">
-                    <img src="./assets/images/owl2.png" alt=""/>
+                    <img src={owl2} alt=""/>
                     <p>Exclusive offers</p>
                 </div>
             </div>
             <div>
                 <div className="auto-scroll-content">
-                    <img src="./assets/images/owl3.png" alt=""/>
+                    <img src={owl3} alt=""/>
                     <p>Build your dream car</p>
                 </div>
             </div>
@@ -411,5 +435,4 @@ export const SimpleSliderScrollFunc = function SimpleSliderScroll() {
     );
 }
 
-//export {SimpleSliderHeroFun,SimpleSliderSellerFunc}
 

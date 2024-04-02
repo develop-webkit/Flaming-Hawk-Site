@@ -1138,6 +1138,7 @@ a {
 
 .love-slick .untern-slider3x .slick-prev {
     right: -1rem;
+    left: inherit;
 }
 
 .visible-xs {
