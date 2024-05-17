@@ -26,7 +26,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export const SimpleSliderHeroFun = function SimpleSliderHero() {
+export const SimpleSliderHeroFun = 
+
+function SimpleSliderHero() {
   const settings = {
         dots: true,
         arrows: false,
